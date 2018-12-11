@@ -1,8 +1,7 @@
 {
   "name": "@webriq/gatsby-source-strapi",
   "version": "0.0.6",
-  "description":
-    "Gatsby source plugin for building websites using Strapi as a data source",
+  "description": "Gatsby source plugin for building websites using Strapi as a data source",
   "author": {
     "email": "hi@strapi.io",
     "name": "Strapi Solutions",
@@ -31,7 +30,12 @@
     "format": "prettier --write 'src/**/*.js'",
     "watch": "babel -w src --out-dir ."
   },
-  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin", "strapi"],
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "strapi"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
     "gatsby-node-helpers": "^0.3.0",
@@ -48,5 +52,7 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.5.3"
   },
-  "pre-commit": ["format"]
+  "pre-commit": [
+    "format"
+  ]
 }
